@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 Microsoft, Microsoft, LIC=0VR56-D67YG-JMV98-3M9XJ-8WHZV-N421A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  D:\software\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+E:\Document\02_DesignDoc\CYG8454\06_Code\IA8454-code-v003_Modify\IA8454-code-v003_Modify\USER\ia8618.uvprojx
+Project File Date:  08/23/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\software\keil5\ARM\ARMCC\Bin'
+Build target 'PWM'
+compiling App_cmd.c...
+..\HARDWARE\communite\App_cmd.c(309): warning:  #1294-D: Old-style function CHANNEL_SWITCH
+  void CHANNEL_SWITCH(channel_select)
+..\HARDWARE\communite\App_cmd.c(353): warning:  #177-D: variable "str"  was declared but never referenced
+  	  unsigned char str[20]={'\0'};
+..\HARDWARE\communite\App_cmd.c(354): warning:  #177-D: variable "Dir_flg"  was declared but never referenced
+  		char Dir_flg[]={"DONE;@_@\r\n"};
+..\HARDWARE\communite\App_cmd.c(431): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  	     sprintf(str,"%f\r\n",ADC_ConvertedValueLocal);
+..\HARDWARE\communite\App_cmd.c(433): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		   MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(446): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  	     sprintf(str,"%f\r\n",ADC_ConvertedValueLocal);
+..\HARDWARE\communite\App_cmd.c(448): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		   MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(472): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  	   sprintf(str,"%f\r\n",ADC_ConvertedValueLocal);
+..\HARDWARE\communite\App_cmd.c(474): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		 MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(486): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  	   sprintf(str,"%f\r\n",ADC_ConvertedValueLocal);
+..\HARDWARE\communite\App_cmd.c(488): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		 MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(512): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  	   sprintf(str,"%f\r\n",ADC_ConvertedValueLocal);
+..\HARDWARE\communite\App_cmd.c(514): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		 MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(529): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  	   sprintf(str,"%f\r\n",ADC_ConvertedValueLocal);
+..\HARDWARE\communite\App_cmd.c(531): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		 MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(554): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  	   sprintf(str,"%f\r\n",ADC_ConvertedValueLocal);
+..\HARDWARE\communite\App_cmd.c(556): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		 MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(571): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  	   sprintf(str,"%f\r\n",ADC_ConvertedValueLocal);
+..\HARDWARE\communite\App_cmd.c(573): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		 MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(589): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  	  sprintf(str,"%f\r\n",ADC_ConvertedValueLocal);
+..\HARDWARE\communite\App_cmd.c(638): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+  	lenth = strlen(arr);
+..\HARDWARE\communite\App_cmd.c(663): warning:  #177-D: variable "j"  was declared but never referenced
+  	char i,j,looptime;
+..\HARDWARE\communite\App_cmd.c(715): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  			looptime = CharToInteger(temp);
+..\HARDWARE\communite\App_cmd.c(735): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  				bitnum=CharToInteger(temp);
+..\HARDWARE\communite\App_cmd.c(748): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  				IOset=CharToInteger(temp);
+..\HARDWARE\communite\App_cmd.c(809): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  			if(Com_result==1) MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(810): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  			else MessageSend( error, 47);
+..\HARDWARE\communite\App_cmd.c(819): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(823): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(827): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(832): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(836): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+      MessageSend( Dir_flg, 10);  		
+..\HARDWARE\communite\App_cmd.c(840): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(844): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(847): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  			MessageSend( Help, 6);
+..\HARDWARE\communite\App_cmd.c(848): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  MessageSend( Version,9);
+..\HARDWARE\communite\App_cmd.c(849): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  MessageSend( BitSet,33);
+..\HARDWARE\communite\App_cmd.c(856): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  MessageSend( Resetall,7);
+..\HARDWARE\communite\App_cmd.c(857): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  MessageSend( Flexswitch,16);
+..\HARDWARE\communite\App_cmd.c(858): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  MessageSend( PinTest,10);
+..\HARDWARE\communite\App_cmd.c(859): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(863): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		  MessageSend( Dir_flg, 10);
+..\HARDWARE\communite\App_cmd.c(867): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  			MessageSend( error, 47);
+..\HARDWARE\communite\App_cmd.c(796): warning:  #177-D: variable "size"  was declared but never referenced
+  	unsigned short size;
+..\HARDWARE\communite\App_cmd.c(800): warning:  #177-D: variable "i"  was declared but never referenced
+  	unsigned int i=0;
+..\HARDWARE\communite\App_cmd.c: 45 warnings, 0 errors
+linking...
+Program Size: Code=27576 RO-data=472 RW-data=336 ZI-data=3920  
+FromELF: creating hex file...
+"..\OBJ\code_v006_0820.axf" - 0 Error(s), 45 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_PWM
+  D:\software\keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

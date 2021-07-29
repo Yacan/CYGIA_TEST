@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 123, 123, LIC=7YKNN-YS521-HPNZN-Y4Q97-7FG8W-FGI2Z
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  D:\software\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+E:\03_Project_file\07_atlantis\06_Code\02_Trigger_board\CYG_ARM_F1RC_V1.0_code_20210717(Ongoing)\USER\CYG_ARM_F1RC.uvprojx
+Project File Date:  07/12/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\software\Keil5\ARM\ARMCC\Bin'
+Build target 'CYG_ARM_F1RC'
+compiling mycmd.c...
+..\HARDWARE\CMD\mycmd.c(324): warning:  #940-D: missing return statement at end of non-void function "CMD_Relay" 
+  }
+..\HARDWARE\CMD\mycmd.c(314): warning:  #177-D: variable "flag"  was declared but never referenced
+        static uint8_t flag = 0;
+..\HARDWARE\CMD\mycmd.c(382): warning:  #940-D: missing return statement at end of non-void function "CMD_SETIP" 
+  }
+..\HARDWARE\CMD\mycmd.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=26876 RO-data=608 RW-data=292 ZI-data=6220  
+FromELF: creating hex file...
+"..\OBJ\CYG_ARM_F1RC.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_CYG_ARM_F1RC
+  D:\software\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
